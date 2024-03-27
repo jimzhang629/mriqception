@@ -5,7 +5,7 @@ import pandas as pd
 from urllib.request import urlopen
 from xml.dom import minidom
 from json import load
-from pandas.io.json import json_normalize
+from pandas import json_normalize
 
 def filterIQM(apidf, filter_list):
     """ Loads the API info and filters based on user-provided 
